@@ -78,7 +78,6 @@ body{
     background: #0A3871;
     color: white;
     display: block;
-    margin:auto;
 }
 .left-button{
     display: flex;
@@ -155,7 +154,8 @@ body{
         height: auto;
     }
     #boton-copiar{
-        margin-left: auto;
+        margin: auto;
+        
     }
     .left-button{
         display: block;
