@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="reset.css">
+        <title>Challenge 1</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/Javascript" src="script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="logo">
+                <img src="Vector.png" alt="Logo de Alura">
+            </div>
+            <div class="left"> <!-- Panel izquierdo -->
+                <textarea class="text-area" id="textoencriptar" name="name" rows="8" cols="80" placeholder="Ingrese el texto aquí"></textarea> 
+            </div>
+            <div class="left-panel">
+                <img id="signoexclamacion" src="signoadvertencia.png" alt="Signo de exclamación.">
+                <p id="textoinformativo">Solo letras minúsculas y sin acentos.</p>
+                <div class="left-button">
+                    <button type="button" id="boton-encriptar" onclick="encriptar()">Encriptar</button>
+                    <button type="button" id="boton-desencriptar" onclick="desencriptar()">Desencriptar</button>
+                </div>
+            </div>
+            <div class="right"> <!-- Panel derecho -->
+                <img class="munecoimg" src="MuñecoMuñeco.jpg" alt="Imagen de un niño mirando un diamante.">
+                <h1 id="textomuneco1">Ningún mensaje fue encontrado.</h1>  
+                <textarea id="textomuneco2" name="name" rows="6" cols="80" placeholder="Ingrese el texto que desee encriptar o desencriptar"></textarea>
+                <button type="button" id="boton-copiar" onclick="copiar()">Copiar</button>
+            </div>
+            <div class="textocreador">
+                <p>Creado por Alura y Oracle One- Desarrollado por Valeria Cilento</p>
+            </div>
+        </div>
+    </body>
+</html>
